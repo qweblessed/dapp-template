@@ -1,7 +1,7 @@
 import { AbstractConnector } from "@web3-react/abstract-connector";
 import { ethers } from "ethers";
 
-import { COUNTER_ADDRESS } from "../Helpers/contractAddress";
+import { COUNTER_ADDRESS } from "../helpers/contractAddress";
 import { Counter__factory } from "../typechain";
 
 export const incrementCounter = async (connector: AbstractConnector) => {

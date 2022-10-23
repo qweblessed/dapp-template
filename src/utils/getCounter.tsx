@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 
-import { COUNTER_ADDRESS } from "../Helpers/contractAddress";
+import { COUNTER_ADDRESS } from "../helpers/contractAddress";
 import { Counter__factory } from "../typechain";
 
 export const getCounter = async () => {

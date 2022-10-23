@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import "./index.css";
 import App from "./App";
-import MetamaskProvider from "./Components/Wallet/MetaMaskProvider";
+import MetamaskProvider from "./components/Wallet/MetaMaskProvider";
 import ChainSwapHandler from "./utils/ChainSwapHandler";
 
 const root = ReactDOM.createRoot(

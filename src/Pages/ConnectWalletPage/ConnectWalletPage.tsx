@@ -7,7 +7,7 @@ import {
   Wrapper,
 } from "./ConnectWalletPageStyles";
 
-import { injected } from "../../Components/Wallet/Connector";
+import { injected } from "../../components/Wallet/Connector";
 
 const ConnectWalletPage = () => {
   const { account, activate, deactivate, active } = useWeb3React();
