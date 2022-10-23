@@ -1,12 +1,12 @@
 # Example template Dapp 
 This example template dapp includes basic dapp config preset:
-    ethers
-    typechain
-    alchemy
-    moralis
+    ethers,
+    typechain,
+    alchemy,
+    moralis,
 basic dapp funcs such as:
-    connect wallet
-    handle network switch 
+    connect wallet,
+    handle network switch ,
 and @emotion lib for styled components.
 
 # How to setup ? 
