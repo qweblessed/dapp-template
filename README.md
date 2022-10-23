@@ -6,7 +6,7 @@ This example template dapp includes basic dapp config preset:
     moralis,
 basic dapp funcs such as:
     connect wallet,
-    handle network switch ,
+    handle network switch
 and @emotion lib for styled components.
 
 # How to setup ? 
