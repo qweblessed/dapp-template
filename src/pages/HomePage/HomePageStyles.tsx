@@ -10,3 +10,16 @@ export const Wrapper = styled("div")(() => ({
   alignItems: "center",
   paddingBottom: "40px",
 }));
+
+export const IncrementButton = styled("button")(() => ({
+  borderRadius: "30px",
+  background: "#ffe6f4",
+  border: "0px solid black",
+  width: "10rem",
+  height: "3rem",
+  boxShadow: " 2px 2px 2px 2px #ffe6f4",
+  ":hover": {
+    background: "#fffb7d",
+    boxShadow: " 2px 2px 2px 2px #ffe6f4",
+  },
+}));

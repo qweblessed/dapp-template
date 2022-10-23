@@ -1,7 +1,7 @@
 import { useWeb3React } from "@web3-react/core";
 import React, { useEffect, useState } from "react";
 
-import { Wrapper } from "./HomePageStyles";
+import { IncrementButton, Wrapper } from "./HomePageStyles";
 
 import { getCounter } from "../../utils/getCounter";
 import { incrementCounter } from "../../utils/incrementCounter";
@@ -25,9 +25,9 @@ function HomePage() {
   return (
     <Wrapper>
       <p>Current count: {counter}</p>
-      <button onClick={() => incrementCounter(connector!)}>
+      <IncrementButton onClick={() => incrementCounter(connector!)}>
         Increment counter
-      </button>
+      </IncrementButton>
       <ConnectWalletPage />
     </Wrapper>
   );
