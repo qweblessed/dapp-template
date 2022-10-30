@@ -26,7 +26,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn
       - name: ESLint TS
-        run: yarn lint:ts
+        run: yarn lint
 
   format:
     runs-on: ubuntu-latest
@@ -45,6 +45,6 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: yarn   
       - name: Prettier TypeScript
-        run: yarn format:ts
+        run: yarn format
       - name: Prettier YAML
-        run: yarn format:yml
+        run: yarn format
